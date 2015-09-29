@@ -11,7 +11,6 @@ module.exports = (robot) ->
             start = new Date(date)
             end = new Date(date)
             end.setDate(end.getDate() + 7)
-            msg.send "#{start} #{end} #{today}"
-            if start <= today and today < end?
-                msg.send "#{people[0]} is on call, #{people[1]} is on backup"
+            if today - start >= 0 and end - today > 0?
+                msg.send "#{people[0]} is on call, #{people[1]} is on backup!"
                 break
