@@ -1,3 +1,18 @@
+# Description:
+#   Lets CORE members know who's on call for emails that week.
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot who's on call - Returns name of person on call and person on backup
+#
+# Author:
+#   jackiehluo
+
 module.exports = (robot) ->
 
     robot.respond /who(’s|'s|s| is|se)? (on call|oncall|on-call)(.+)?/i, (msg) ->

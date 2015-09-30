@@ -1,8 +1,5 @@
 [
-  "hubot-diagnostics",
   "hubot-help",
-  "hubot-google-images",
-  "hubot-google-translate",
   "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
@@ -11,6 +8,5 @@
   "hubot-business-cat",
   "hubot-tell",
   "hubot-humanity",
-  "hubot-outofcontext",
   "hubot-plusplus"
 ]
