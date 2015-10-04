@@ -20,7 +20,14 @@ module.exports = (robot) ->
             '09/13/15': ['Josh', 'Sara']
             '09/20/15': ['Sara', 'Josh']
             '09/27/15': ['Jackie', 'Max']
-            '10/04/15': ['Max', 'Jamie']
+            '10/04/15': ['Jamie', 'Kat']
+            '10/11/15': ['Max', 'Jamie']
+            '10/18/15': ['Kat', 'no one']
+            '10/25/15': ['Kimberly', 'Simon']
+            '11/8/15': ['No one', 'George']
+            '11/15/15': ['George', 'Jackie']
+            '11/22/15': ['No one', 'no one']
+            '11/29/15': ['No one', 'no one']
         for date, people of schedule
             today = new Date()
             start = new Date(date)
