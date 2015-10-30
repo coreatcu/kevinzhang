@@ -22,11 +22,12 @@ module.exports = (robot) ->
             '09/27/15': ['Jackie', 'Max']
             '10/04/15': ['Jamie', 'Kat']
             '10/11/15': ['Max', 'Jamie']
-            '10/18/15': ['Kat', 'no one']
+            '10/18/15': ['Kat', 'Simon']
             '10/25/15': ['Kimberly', 'Simon']
-            '11/8/15': ['No one', 'George']
+            '11/1/15': ['Simon', 'Kimberly']
+            '11/8/15': ['Sara', 'George']
             '11/15/15': ['George', 'Jackie']
-            '11/22/15': ['No one', 'no one']
+            '11/22/15': ['Jackie', 'Sara']
             '11/29/15': ['No one', 'no one']
         for date, people of schedule
             today = new Date()

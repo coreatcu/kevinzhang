@@ -17,6 +17,7 @@
 
 remarks = [
     "Great job, %!",
+    "% is a ray of sunshine on a cloudy day.",
     "A gold star for %!"
     "Way to go, %!",
     "% is amazing, and everyone should be happy this amazing person is with us.",
